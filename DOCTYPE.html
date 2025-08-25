@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Estacionamento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Calculadora de Estacionamento</h1>
+
+        <div class="input-group">
+            <label for="valor">Insira o valor pago (R$):</label>
+            <input type="number" id="valor" step="0.01" placeholder="Ex: 2.50">
+        </div>
+
+        <button id="calcular">Calcular</button>
+
+        <div class="resultado">
+            <p id="tempo"></p>
+            <p id="troco"></p>
+            <p id="mensagem" class="erro"></p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
